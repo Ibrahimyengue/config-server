@@ -1,4 +1,16 @@
-
-limits-service:
+spring:
+  application:
+    name: limits-service
+  profiles:
+    active: qa
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+LimitConfiguration:
   minimum: 0
   maximum: 10
+limits-service:
+  minimum: 23
+  maximum: 106
