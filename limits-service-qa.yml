@@ -1,7 +1,7 @@
 
 limits-service:
   minimum: 90
-  maximum: 560
+  maximum: 100
 
 LimitConfiguration:
   minimum: 0
