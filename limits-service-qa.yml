@@ -1,7 +1,7 @@
 
 limits-service:
   minimum: 23
-  maximum: 106
+  maximum: 109
 spring:
   application:
     name: limits-service
