@@ -1,8 +1,6 @@
 spring:
   application:
     name: limits-service
-  profiles:
-    active: qa
     
 limits-service:
   minimum: 23
