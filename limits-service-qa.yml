@@ -1,7 +1,4 @@
-spring:
-  application:
-    name: limits-service
-    
+
 limits-service:
   minimum: 23
   maximum: 56
