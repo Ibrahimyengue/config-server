@@ -11,3 +11,6 @@ management:
 LimitConfiguration:
   minimum: 0
   maximum: 10
+limits-service:
+  minimum: 0
+  maximum: 10
